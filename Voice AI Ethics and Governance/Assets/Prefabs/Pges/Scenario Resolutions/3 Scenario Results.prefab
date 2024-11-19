@@ -74,38 +74,48 @@ MonoBehaviour:
   resolutions:
   - resolutionTittle: Autonomy
     resolutionText: No text yet.
+    tittle: 
     resolutionImage: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   - resolutionTittle: Safety
     resolutionText: No text yet.
+    tittle: 
     resolutionImage: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   - resolutionTittle: Efficiency
     resolutionText: No text yet.
+    tittle: 
     resolutionImage: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   - resolutionTittle: Freedom from Bias
     resolutionText: Though slightly less accurate, the algorithm with less bias is
       released. The app gains attention from a large range of users, especially young
       individuals.
+    tittle: 'Fair for all:'
     resolutionImage: {fileID: 21300000, guid: ef82392e9ac21e945909196d5867cbfe, type: 3}
   - resolutionTittle: Fairness
     resolutionText: No text yet.
+    tittle: 
     resolutionImage: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   - resolutionTittle: Privacy
     resolutionText: No text yet.
+    tittle: 
     resolutionImage: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   - resolutionTittle: Beneficence
     resolutionText: No text yet.
+    tittle: 
     resolutionImage: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   - resolutionTittle: Transparency
     resolutionText: No text yet.
+    tittle: 
     resolutionImage: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   - resolutionTittle: Accuracy
     resolutionText: The app is released and aimed only for people older than 40 years
       old. This leads to a large financial blow to the company due to this age restriction
       as people older than 40 don't trust the technology much yet. The start-up goes
       bankrupt in a year.
+    tittle: 'Valuing accuracy:'
     resolutionImage: {fileID: 21300000, guid: 4befa04aff8e118468bea6a35b8e8fb7, type: 3}
   - resolutionTittle: Accountability
     resolutionText: No text yet.
+    tittle: 
     resolutionImage: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   - resolutionTittle: Neutral
     resolutionText: "The company decides that neither option is sufficient\u2014they
@@ -113,6 +123,7 @@ MonoBehaviour:
       high accuracy thresholds. They decide that, empowered by the experience gained
       thus far, they can go back to the early stages of data gathering and preparation,
       and build a new product that maximizes both accuracy and freedom from bias."
+    tittle: 'Undecided:'
     resolutionImage: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
 --- !u!1 &1693012211983243859
 GameObject:

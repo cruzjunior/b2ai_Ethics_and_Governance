@@ -150,45 +150,56 @@ MonoBehaviour:
   resolutions:
   - resolutionTittle: Autonomy
     resolutionText: No text yet.
+    tittle: 
     resolutionImage: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   - resolutionTittle: Safety
     resolutionText: No text yet.
+    tittle: 
     resolutionImage: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   - resolutionTittle: Efficiency
-    resolutionText: 'Something better than nothing: The startup decides that the
-      risk of poor judgments for young users is worth all the correct judgments.
-      They move to accept the algorithm as it is. Within the coming months, though,
-      public backlash grows, and it becomes clear that the algorithm will not be
-      accepted by users unless they make it fair.'
+    resolutionText: The startup decides that the risk of poor judgments for young
+      users is worth all the correct judgments. They move to accept the algorithm
+      as it is. Within the coming months, though, public backlash grows, and it becomes
+      clear that the algorithm will not be accepted by users unless they make it
+      fair.
+    tittle: 'Something better than nothing:'
     resolutionImage: {fileID: 21300000, guid: bf111eeb5e75c4249bbcd685bafff053, type: 3}
   - resolutionTittle: Freedom from Bias
-    resolutionText: 'Retraining: Having to slow down the timeline on some other projects,
-      the company takes the time and energy to retrain the algorithm. They decide
-      that this algorithm it worth the extra time, energy, and money.'
+    resolutionText: Having to slow down the timeline on some other projects, the
+      company takes the time and energy to retrain the algorithm. They decide that
+      this algorithm it worth the extra time, energy, and money.
+    tittle: 'Retraining:'
     resolutionImage: {fileID: 21300000, guid: bf111eeb5e75c4249bbcd685bafff053, type: 3}
   - resolutionTittle: Fairness
     resolutionText: No text yet.
+    tittle: 
     resolutionImage: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   - resolutionTittle: Privacy
     resolutionText: No text yet.
+    tittle: 
     resolutionImage: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   - resolutionTittle: Beneficence
     resolutionText: No text yet.
+    tittle: 
     resolutionImage: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   - resolutionTittle: Transparency
     resolutionText: No text yet.
+    tittle: 
     resolutionImage: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   - resolutionTittle: Accuracy
     resolutionText: No text yet.
+    tittle: 
     resolutionImage: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   - resolutionTittle: Accountability
     resolutionText: No text yet.
+    tittle: 
     resolutionImage: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   - resolutionTittle: Neutral
-    resolutionText: 'Undecided: Jane is genuinely torn between the two options. Unable
-      to decide, she decides to let others in the company make this choice. Doing
-      so, the company moves on to retrain the app, hoping to have a new version by
-      their next round of fundraising.'
+    resolutionText: Jane is genuinely torn between the two options. Unable to decide,
+      she decides to let others in the company make this choice. Doing so, the company
+      moves on to retrain the app, hoping to have a new version by their next round
+      of fundraising.
+    tittle: 'Undecided: '
     resolutionImage: {fileID: 21300000, guid: bf111eeb5e75c4249bbcd685bafff053, type: 3}
 --- !u!1 &2216645414264092691
 GameObject:

@@ -1001,6 +1001,7 @@ struct Resolution_t2953A45D77E077F3DED08EF6BB555554CBF48917  : public RuntimeObj
 {
 	String_t* ___resolutionTittle;
 	String_t* ___resolutionText;
+	String_t* ___tittle;
 	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___resolutionImage;
 };
 struct U3CU3Ec_t04E77827D54CC7D69F04FDFC5A84C3F7392F9A76  : public RuntimeObject
@@ -5347,6 +5348,7 @@ struct ConflictValuesPage_t889B9CAC8E0932F691B6596105445D236A290028  : public Mo
 {
 	List_1_tA45AF46ADAFAFE4A5AB3C1F2504647F7CF98AD08* ___values;
 	Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* ___slider;
+	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___prompt;
 	float ___value;
 };
 struct EventTrigger_tAEBFB7A16CA99343EA87722F78884BF8646BAE1B  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
@@ -8304,9 +8306,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3867[1] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3868[5] = 
 {
 	static_cast<int32_t>(offsetof(CommentPopUpBehaviour_t41A8D5748E983AD452D8BD46A006042C9DFF4569, ___closeButton)),static_cast<int32_t>(offsetof(CommentPopUpBehaviour_t41A8D5748E983AD452D8BD46A006042C9DFF4569, ___submitButton)),static_cast<int32_t>(offsetof(CommentPopUpBehaviour_t41A8D5748E983AD452D8BD46A006042C9DFF4569, ___commentInputField)),static_cast<int32_t>(offsetof(CommentPopUpBehaviour_t41A8D5748E983AD452D8BD46A006042C9DFF4569, ___headerText)),static_cast<int32_t>(offsetof(CommentPopUpBehaviour_t41A8D5748E983AD452D8BD46A006042C9DFF4569, ___opaqueBckgnd)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3869[3] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3869[4] = 
 {
-	static_cast<int32_t>(offsetof(ConflictValuesPage_t889B9CAC8E0932F691B6596105445D236A290028, ___values)),static_cast<int32_t>(offsetof(ConflictValuesPage_t889B9CAC8E0932F691B6596105445D236A290028, ___slider)),static_cast<int32_t>(offsetof(ConflictValuesPage_t889B9CAC8E0932F691B6596105445D236A290028, ___value)),};
+	static_cast<int32_t>(offsetof(ConflictValuesPage_t889B9CAC8E0932F691B6596105445D236A290028, ___values)),static_cast<int32_t>(offsetof(ConflictValuesPage_t889B9CAC8E0932F691B6596105445D236A290028, ___slider)),static_cast<int32_t>(offsetof(ConflictValuesPage_t889B9CAC8E0932F691B6596105445D236A290028, ___prompt)),static_cast<int32_t>(offsetof(ConflictValuesPage_t889B9CAC8E0932F691B6596105445D236A290028, ___value)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3870[1] = 
 {
 	static_cast<int32_t>(offsetof(FinalPageResolution_t9E7972DE6752D8C1FEFE810482C571A66F05C330, ___values)),};
@@ -8325,9 +8327,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3874[5] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3875[3] = 
 {
 	static_cast<int32_t>(offsetof(RadarChartBehaviour_tBD319DDEF5A98190B9EAC813B13E6EFC3D01A2D9, ___radarPolygon)),static_cast<int32_t>(offsetof(RadarChartBehaviour_tBD319DDEF5A98190B9EAC813B13E6EFC3D01A2D9, ___conflictValuesDict)),static_cast<int32_t>(offsetof(RadarChartBehaviour_tBD319DDEF5A98190B9EAC813B13E6EFC3D01A2D9, ___chosenValuesDict)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3876[3] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3876[4] = 
 {
-	static_cast<int32_t>(offsetof(Resolution_t2953A45D77E077F3DED08EF6BB555554CBF48917, ___resolutionTittle)),static_cast<int32_t>(offsetof(Resolution_t2953A45D77E077F3DED08EF6BB555554CBF48917, ___resolutionText)),static_cast<int32_t>(offsetof(Resolution_t2953A45D77E077F3DED08EF6BB555554CBF48917, ___resolutionImage)),};
+	static_cast<int32_t>(offsetof(Resolution_t2953A45D77E077F3DED08EF6BB555554CBF48917, ___resolutionTittle)),static_cast<int32_t>(offsetof(Resolution_t2953A45D77E077F3DED08EF6BB555554CBF48917, ___resolutionText)),static_cast<int32_t>(offsetof(Resolution_t2953A45D77E077F3DED08EF6BB555554CBF48917, ___tittle)),static_cast<int32_t>(offsetof(Resolution_t2953A45D77E077F3DED08EF6BB555554CBF48917, ___resolutionImage)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3877[4] = 
 {
 	static_cast<int32_t>(offsetof(ResolutionPage_t91434E6BC1EA3EB60793203AFC8168DD32F6D1EE, ___resolutions)),static_cast<int32_t>(offsetof(ResolutionPage_t91434E6BC1EA3EB60793203AFC8168DD32F6D1EE, ___pageImage)),static_cast<int32_t>(offsetof(ResolutionPage_t91434E6BC1EA3EB60793203AFC8168DD32F6D1EE, ___pageText)),static_cast<int32_t>(offsetof(ResolutionPage_t91434E6BC1EA3EB60793203AFC8168DD32F6D1EE, ___pageTitle)),};

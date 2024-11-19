@@ -13,6 +13,7 @@ public class ResolutionPage : MonoBehaviour
     {
         public string resolutionTittle;
         public string resolutionText;
+        public string tittle;
         public Sprite resolutionImage;
     }
 
@@ -37,7 +38,7 @@ public class ResolutionPage : MonoBehaviour
             {
                 pageImage.sprite = resolution.resolutionImage;
                 pageText.text = resolution.resolutionText;
-                pageTitle.text = "Resolution that favours " + resolution.resolutionTittle;
+                pageTitle.text = resolution.tittle;
             }
         }
     }

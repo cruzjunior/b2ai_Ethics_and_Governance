@@ -213,6 +213,7 @@ MonoBehaviour:
       too much attention to them. After all, he\u2019s a professional, and this algorithm
       is brand-new. He decides that he has an obligation to trust what Mariella freely
       expresses, and not impose additional tests and evaluations."
+    tittle: 'Autonomy First:'
     resolutionImage: {fileID: 21300000, guid: 9199e26c1618be144b5cf7aeebae8589, type: 3}
   - resolutionTittle: Safety
     resolutionText: "Mariella's therapist decides that the algorithm\u2019s output
@@ -221,37 +222,47 @@ MonoBehaviour:
       Mariella time, energy, and money, but all is well--the tests indicate that
       Mariella\u2019s testimony was the truth. In the meantime, the number of patients
       using the algorithm increases day by day."
+    tittle: 'Safety First:'
     resolutionImage: {fileID: 21300000, guid: 9199e26c1618be144b5cf7aeebae8589, type: 3}
   - resolutionTittle: Efficiency
     resolutionText: No text yet.
+    tittle: 
     resolutionImage: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   - resolutionTittle: Freedom from Bias
     resolutionText: No text yet.
+    tittle: 
     resolutionImage: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   - resolutionTittle: Fairness
     resolutionText: No text yet.
+    tittle: 
     resolutionImage: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   - resolutionTittle: Privacy
     resolutionText: No text yet.
+    tittle: 
     resolutionImage: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   - resolutionTittle: Beneficence
     resolutionText: No text yet.
+    tittle: 
     resolutionImage: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   - resolutionTittle: Transparency
     resolutionText: No text yet.
+    tittle: 
     resolutionImage: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   - resolutionTittle: Accuracy
     resolutionText: No text yet.
+    tittle: 
     resolutionImage: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   - resolutionTittle: Accountability
     resolutionText: No text yet.
+    tittle: 
     resolutionImage: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   - resolutionTittle: Neutral
-    resolutionText: "Undecided: Marvin approaches Mariella with the algorithm\u2019s
-      results, and outright asks her what she thinks. The algorithm provokes a new
-      care in Marvin\u2019s approach, and he finds himself paying special attention
-      to any signs of depression in Mariella. At the same time, he doesn\u2019t advise
-      her to increase the rigor of her treatment."
+    resolutionText: "Marvin approaches Mariella with the algorithm\u2019s results,
+      and outright asks her what she thinks. The algorithm provokes a new care in
+      Marvin\u2019s approach, and he finds himself paying special attention to any
+      signs of depression in Mariella. At the same time, he doesn\u2019t advise her
+      to increase the rigor of her treatment."
+    tittle: 'Undecided: '
     resolutionImage: {fileID: 21300000, guid: 9199e26c1618be144b5cf7aeebae8589, type: 3}
 --- !u!1 &1447794684440706137
 GameObject:
