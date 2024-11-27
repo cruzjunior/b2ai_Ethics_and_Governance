@@ -135,6 +135,7 @@ MonoBehaviour:
     isValues: 0
   buttonPrefab: {fileID: 8280093257193051494, guid: 3ff8f86eb597c2f4a999d88c713d9a23, type: 3}
   buttonParent: {fileID: 2216645414264092691}
+  prevPagePrefab: {fileID: 0}
 --- !u!114 &4686743392645944633
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -163,13 +164,13 @@ MonoBehaviour:
       clear that the algorithm will not be accepted by users unless they make it
       fair.
     tittle: 'Something better than nothing:'
-    resolutionImage: {fileID: 21300000, guid: bf111eeb5e75c4249bbcd685bafff053, type: 3}
+    resolutionImage: {fileID: 21300000, guid: 4f733154ebb4d2b4b95775eced1a5049, type: 3}
   - resolutionTittle: Freedom from Bias
     resolutionText: Having to slow down the timeline on some other projects, the
       company takes the time and energy to retrain the algorithm. They decide that
       this algorithm it worth the extra time, energy, and money.
     tittle: 'Retraining:'
-    resolutionImage: {fileID: 21300000, guid: bf111eeb5e75c4249bbcd685bafff053, type: 3}
+    resolutionImage: {fileID: 21300000, guid: 4f733154ebb4d2b4b95775eced1a5049, type: 3}
   - resolutionTittle: Fairness
     resolutionText: No text yet.
     tittle: 
@@ -200,7 +201,7 @@ MonoBehaviour:
       moves on to retrain the app, hoping to have a new version by their next round
       of fundraising.
     tittle: 'Undecided: '
-    resolutionImage: {fileID: 21300000, guid: bf111eeb5e75c4249bbcd685bafff053, type: 3}
+    resolutionImage: {fileID: 21300000, guid: 4f733154ebb4d2b4b95775eced1a5049, type: 3}
 --- !u!1 &2216645414264092691
 GameObject:
   m_ObjectHideFlags: 0

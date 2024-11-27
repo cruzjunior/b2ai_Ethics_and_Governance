@@ -11,11 +11,15 @@ public class ConflictValuesPage : MonoBehaviour
     public Slider slider;
     public TextMeshProUGUI prompt;
     private float value = 0.0f;
+    public GameObject confirmPopup;
+    public Button confirmButton;
 
     // Start is called before the first frame update
     void Start()
     {
         SetValues(StoryManager.Instance.GetValues());
+        confirmPopup.SetActive(false);
+        GetComponent<StoryNode>().SetNextButton(confirmButton);
     }
 
     public void SetValues(string[] values)
@@ -50,5 +54,14 @@ public class ConflictValuesPage : MonoBehaviour
     public void SubmitValue()    
     {
         StoryManager.Instance.SetConflictValue(value);
+    }
+
+    public void OpenPopup()
+    {
+        confirmPopup.SetActive(true);
+    }
+    public void ClosePopup()
+    {
+        confirmPopup.SetActive(false);
     }
 }

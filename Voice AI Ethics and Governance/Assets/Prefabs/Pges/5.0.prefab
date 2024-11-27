@@ -188,11 +188,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   options:
-  - btnText: Finale
+  - btnText: Next
     nextPagePrefab: {fileID: 1390179803918305877, guid: 78ccf192f36eab14e8b83c5e99332253, type: 3}
     isValues: 0
   buttonPrefab: {fileID: 8280093257193051494, guid: 3ff8f86eb597c2f4a999d88c713d9a23, type: 3}
   buttonParent: {fileID: 6343490138510749997}
+  prevPagePrefab: {fileID: 0}
 --- !u!1 &1706575334937139935
 GameObject:
   m_ObjectHideFlags: 0

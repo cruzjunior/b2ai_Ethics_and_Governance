@@ -263,11 +263,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   options:
+  - btnText: Back
+    nextPagePrefab: {fileID: 1390179803918305877, guid: 5232472a78f01eb4780ffa78ad016190, type: 3}
+    isValues: 0
   - btnText: Next
     nextPagePrefab: {fileID: 1390179803918305877, guid: 1da6a8d68bfa385449e6b866bf82a9f1, type: 3}
     isValues: 1
   buttonPrefab: {fileID: 8280093257193051494, guid: 3ff8f86eb597c2f4a999d88c713d9a23, type: 3}
   buttonParent: {fileID: 6343490138510749997}
+  prevPagePrefab: {fileID: 0}
 --- !u!1 &3268232717534964343
 GameObject:
   m_ObjectHideFlags: 0
@@ -478,7 +482,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 927dabea316e1484f89321c27dfbb31f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: aa6b1f088cca99a4e801a18ff3a0de19, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1

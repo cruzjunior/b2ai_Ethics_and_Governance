@@ -190,9 +190,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2abb1281c16b774a9452904e62c43e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  options: []
+  options:
+  - btnText: Next
+    nextPagePrefab: {fileID: 1390179803918305877, guid: 34ae0668751800a4aa730b0ed2c2933f, type: 3}
+    isValues: 0
   buttonPrefab: {fileID: 8280093257193051494, guid: 3ff8f86eb597c2f4a999d88c713d9a23, type: 3}
   buttonParent: {fileID: 6343490138510749997}
+  prevPagePrefab: {fileID: 0}
 --- !u!114 &7224147733515548411
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -274,7 +278,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e736e01ac981c1a4ca111d59e52a3369, type: 3}
+  m_Sprite: {fileID: 21300000, guid: eacc8d827ebdf3d4bb036cdeb003858a, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1

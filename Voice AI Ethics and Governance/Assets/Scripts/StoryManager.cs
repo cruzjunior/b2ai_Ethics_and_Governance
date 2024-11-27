@@ -75,7 +75,7 @@ public class StoryManager : MonoBehaviour
         if(isValues)
         {
             ResetValues();
-            nxtBtn = currentPageInstance.transform.GetChild(0).transform.GetChild(0).GetComponent<Button>();
+            nxtBtn = currentPageInstance.transform.GetChild(0).transform.GetChild(1).GetComponent<Button>();
             nxtBtn.interactable = false;
         }
     }

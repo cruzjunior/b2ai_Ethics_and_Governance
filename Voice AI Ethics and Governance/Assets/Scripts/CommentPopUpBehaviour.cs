@@ -26,7 +26,7 @@ public class CommentPopUpBehaviour : MonoBehaviour
 
         if(count == 1)
         {
-            headerText.text = "The value <b>" + wrongValues[0] + "</b> is incorrect. Please provide a comment to why you think these values are in conflict. (Opional)";
+            headerText.text = "We didn't see <b>" + wrongValues[0] + "</b> in conflict in this situation. Feel free to describe how you see them in conflict here. (Opional)";
         }
         else
         {
@@ -42,7 +42,7 @@ public class CommentPopUpBehaviour : MonoBehaviour
                     wrongValuesString += "<b>" + wrongValues[i] + "</b>, ";
                 }
             }
-            headerText.text = "The values " + wrongValuesString + " are incorrect. Please provide a comment to why you think these values are in conflict. (Opional)";
+            headerText.text = "We didn't see " + wrongValuesString + " in conflict in this situation. Feel free to describe how you see them in conflict here. (Opional)";
         }
 
         gameObject.SetActive(true);

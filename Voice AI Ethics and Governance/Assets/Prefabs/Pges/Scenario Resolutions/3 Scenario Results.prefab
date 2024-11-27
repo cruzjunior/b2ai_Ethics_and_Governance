@@ -59,6 +59,7 @@ MonoBehaviour:
     isValues: 0
   buttonPrefab: {fileID: 8280093257193051494, guid: 3ff8f86eb597c2f4a999d88c713d9a23, type: 3}
   buttonParent: {fileID: 6338034130979618943}
+  prevPagePrefab: {fileID: 0}
 --- !u!114 &4686743392645944633
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -89,7 +90,7 @@ MonoBehaviour:
       released. The app gains attention from a large range of users, especially young
       individuals.
     tittle: 'Fair for all:'
-    resolutionImage: {fileID: 21300000, guid: ef82392e9ac21e945909196d5867cbfe, type: 3}
+    resolutionImage: {fileID: 21300000, guid: bf111eeb5e75c4249bbcd685bafff053, type: 3}
   - resolutionTittle: Fairness
     resolutionText: No text yet.
     tittle: 
@@ -112,7 +113,7 @@ MonoBehaviour:
       as people older than 40 don't trust the technology much yet. The start-up goes
       bankrupt in a year.
     tittle: 'Valuing accuracy:'
-    resolutionImage: {fileID: 21300000, guid: 4befa04aff8e118468bea6a35b8e8fb7, type: 3}
+    resolutionImage: {fileID: 21300000, guid: bf111eeb5e75c4249bbcd685bafff053, type: 3}
   - resolutionTittle: Accountability
     resolutionText: No text yet.
     tittle: 
@@ -124,7 +125,7 @@ MonoBehaviour:
       thus far, they can go back to the early stages of data gathering and preparation,
       and build a new product that maximizes both accuracy and freedom from bias."
     tittle: 'Undecided:'
-    resolutionImage: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+    resolutionImage: {fileID: 21300000, guid: bf111eeb5e75c4249bbcd685bafff053, type: 3}
 --- !u!1 &1693012211983243859
 GameObject:
   m_ObjectHideFlags: 0

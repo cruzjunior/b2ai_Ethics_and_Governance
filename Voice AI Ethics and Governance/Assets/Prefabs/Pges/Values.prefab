@@ -1119,11 +1119,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   options:
+  - btnText: Back
+    nextPagePrefab: {fileID: 1390179803918305877, guid: 2333ad3a3931fdd4faaee4d4ef3b5d2e, type: 3}
+    isValues: 0
   - btnText: Next
     nextPagePrefab: {fileID: 1390179803918305877, guid: 05dfbd7a1dc4dad4495851b23cf42760, type: 3}
     isValues: 0
   buttonPrefab: {fileID: 8280093257193051494, guid: 3ff8f86eb597c2f4a999d88c713d9a23, type: 3}
   buttonParent: {fileID: 6343490138510749997}
+  prevPagePrefab: {fileID: 0}
 --- !u!1 &1391179716331364266
 GameObject:
   m_ObjectHideFlags: 0
@@ -7636,7 +7640,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2100071084409817077, guid: fbdf03bc0dd9caa4fa6836b53ab503af, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -187.6
+      value: -50
       objectReference: {fileID: 0}
     - target: {fileID: 2797909094055663059, guid: fbdf03bc0dd9caa4fa6836b53ab503af, type: 3}
       propertyPath: m_AnchorMax.y
@@ -7890,7 +7894,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1259925960729766011, guid: 10215690180739542917118ffa273f6c, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -100.64
+      value: -50
       objectReference: {fileID: 0}
     - target: {fileID: 1304949776842055169, guid: 10215690180739542917118ffa273f6c, type: 3}
       propertyPath: opaqueBckgnd

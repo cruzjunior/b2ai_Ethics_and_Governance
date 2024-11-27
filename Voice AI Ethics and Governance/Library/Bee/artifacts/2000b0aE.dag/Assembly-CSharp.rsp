@@ -343,6 +343,7 @@
 "Assets/Scripts/CommentPopUpBehaviour.cs"
 "Assets/Scripts/ConflictValuesPage.cs"
 "Assets/Scripts/FinalPageResolution.cs"
+"Assets/Scripts/HyperlinkHandler.cs"
 "Assets/Scripts/InfoButtonManager.cs"
 "Assets/Scripts/InfoPanel.cs"
 "Assets/Scripts/RadarChartBehaviour.cs"

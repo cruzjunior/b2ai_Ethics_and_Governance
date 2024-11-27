@@ -17,6 +17,7 @@ public class StoryNode : MonoBehaviour
     public List<Option> options = new List<Option>();
     public GameObject buttonPrefab;
     public GameObject buttonParent; 
+    public GameObject prevPagePrefab;
     // Start is called before the first frame update
 
     public void LoadOptions()
@@ -31,11 +32,31 @@ public class StoryNode : MonoBehaviour
             GameObject buttonInstance = Instantiate(buttonPrefab, transform);
             buttonInstance.transform.SetParent(buttonParent.transform);
             buttonInstance.GetComponentInChildren<TMPro.TextMeshProUGUI>().text = option.btnText;
-            buttonInstance.GetComponent<UnityEngine.UI.Button>().onClick.AddListener(() => StoryManager.Instance.LoadPage(option.nextPagePrefab, option.isValues));
-            if(gameObject.name == "Favoured Value(Clone)")
+            switch(gameObject.name)
             {
-                buttonInstance.GetComponent<UnityEngine.UI.Button>().onClick.AddListener(() => GetComponent<ConflictValuesPage>().SubmitValue());
+                case "Favoured Value(Clone)":
+                    buttonInstance.GetComponent<UnityEngine.UI.Button>().onClick.AddListener(() => GetComponent<ConflictValuesPage>().OpenPopup());
+                    break;
+                default:
+                    buttonInstance.GetComponent<UnityEngine.UI.Button>().onClick.AddListener(() => StoryManager.Instance.LoadPage(option.nextPagePrefab, option.isValues));
+                    break;
             }
         }
+    }
+
+    public void LoadPrevPage()
+    {
+        StoryManager.Instance.LoadPage(prevPagePrefab);
+    }
+
+    public void SetNextButton(Button nextButton)
+    {
+        nextButton.onClick.AddListener(() => StoryManager.Instance.LoadPage(options[0].nextPagePrefab, options[0].isValues));
+    }
+
+    public void EndGame()
+    {
+        // quit the game
+        Application.Quit();
     }
 }
