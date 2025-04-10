@@ -37,10 +37,4 @@ public class RadarChartBehaviour : MonoBehaviour
             i++;
         }
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

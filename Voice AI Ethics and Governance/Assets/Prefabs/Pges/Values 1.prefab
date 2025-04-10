@@ -7604,7 +7604,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1259925960729766011, guid: 10215690180739542917118ffa273f6c, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -50
+      value: -100.64
       objectReference: {fileID: 0}
     - target: {fileID: 1304949776842055169, guid: 10215690180739542917118ffa273f6c, type: 3}
       propertyPath: opaqueBckgnd
@@ -7834,7 +7834,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2100071084409817077, guid: fbdf03bc0dd9caa4fa6836b53ab503af, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -50
+      value: -187.6
       objectReference: {fileID: 0}
     - target: {fileID: 2797909094055663059, guid: fbdf03bc0dd9caa4fa6836b53ab503af, type: 3}
       propertyPath: m_AnchorMax.y
